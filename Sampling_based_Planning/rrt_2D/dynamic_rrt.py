@@ -9,12 +9,17 @@ import math
 import copy
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 import matplotlib.patches as patches
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) +
-                "/../../Sampling_based_Planning/")
+# sys.path.append(os.path.dirname(os.path.abspath(__file__)) +
+#                 "/../../Sampling_based_Planning")
 
-from Sampling_based_Planning.rrt_2D import env, plotting, utils
+# path_root = Path(__file__).parents[2]
+# sys.path.append(str(path_root))
+
+
+import env, plotting, utils
 
 
 class Node:

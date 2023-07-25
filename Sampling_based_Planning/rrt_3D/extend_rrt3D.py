@@ -12,9 +12,10 @@ import matplotlib.pyplot as plt
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/../../Sampling_based_Planning/")
-from rrt_3D.env3D import env
-from rrt_3D.utils3D import getDist, sampleFree, nearest, steer, isCollide, near, visualization, cost, path
+# sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/../../Sampling_based_Planning/")
+# from rrt_3D.env3D 
+from env3D import env
+from utils3D import getDist, sampleFree, nearest, steer, isCollide, near, visualization, cost, path
 
 # here attempt to use a KD tree for the data structure implementation
 import scipy.spatial.kdtree as KDtree
